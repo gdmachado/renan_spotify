@@ -35,7 +35,7 @@ a:hover {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #8EBB1C;
-  border: 1px solid #709316;
+  border: 1px solid #fff;
 }
 
 

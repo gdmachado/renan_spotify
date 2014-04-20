@@ -16,12 +16,12 @@
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">Cole as musicas aqui.</h1>
+            <h1 class="cover-heading">Pronto!</h1>
             <p class="lead">
 	      <%= form_tag("/results", method: "post") do %>
-		      <%= text_area_tag(:q, "", size: "80x10") %>
+		      <%= text_area_tag(:result, "@string", size: "100x30", readonly: true) %>
 		      <br>
-		      <%= submit_tag("Arruma essa porra", :class => "btn btn-lg btn-green") %>
+		      <%= submit_tag("Fazer outro request", :class => "btn btn-lg btn-default") %>
 	      <% end %>
             </p>
           </div>
@@ -37,3 +37,6 @@
       </div>
 
     </div>
+
+
+<p> oi  </p>

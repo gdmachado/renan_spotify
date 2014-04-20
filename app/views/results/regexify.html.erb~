@@ -16,7 +16,7 @@
           <div class="inner cover">
             <h1 class="cover-heading">Pronto!</h1>
             <p class="lead">
-	      <%= form_tag("/", method: "post") do %>
+	      <%= form_tag("/", method: "get") do %>
 		      <%= text_area_tag(:result, @string, size: "100x30", readonly: true) %>
 		      <br>
 		      <%= submit_tag("Fazer outro request", :class => "btn btn-lg btn-default") %>

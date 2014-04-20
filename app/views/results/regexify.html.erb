@@ -6,11 +6,9 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Cover</h3>
+              <h3 class="masthead-brand">Plugin Spotify</h3>
               <ul class="nav masthead-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="active"><a href="/">Home</a></li>
               </ul>
             </div>
           </div>
@@ -18,7 +16,7 @@
           <div class="inner cover">
             <h1 class="cover-heading">Pronto!</h1>
             <p class="lead">
-	      <%= form_tag("/results", method: "post") do %>
+	      <%= form_tag("/", method: "get") do %>
 		      <%= text_area_tag(:result, @string, size: "100x30", readonly: true) %>
 		      <br>
 		      <%= submit_tag("Fazer outro request", :class => "btn btn-lg btn-default") %>
@@ -28,7 +26,7 @@
 
           <div class="mastfoot">
             <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+              <p>Whatever. <a href="https://github.com/gdmachado/renan_spotify">Github</a>, by <a href="https://twitter.com/gdmachado">@gdmachado</a>.</p>
             </div>
           </div>
 
@@ -37,6 +35,3 @@
       </div>
 
     </div>
-
-
-<p> oi  </p>
